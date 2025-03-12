@@ -13,8 +13,7 @@ def root():
 
 test_client = TestClient(app)
 
-# requirements.txt
-# .github/workflows/test.yml
+
 def test_root():
     response = test_client.get("/")
     assert response.status_code == 200
