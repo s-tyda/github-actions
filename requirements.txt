@@ -1,3 +1,5 @@
-fastapi
+fastapi[standard]
 httpx
 pytest
+mongoengine
+PyJWT
